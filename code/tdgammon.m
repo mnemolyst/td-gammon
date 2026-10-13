@@ -977,6 +977,7 @@ function [v, w, win] = userGame(v, w, t, eta, lambda, update=true)
 
 			maxnp = fwdNet(v, w, encBoard(nBoard, -wh, t));
 		else
+			printf("Opponent rolled: %u and %u\n\n", n1, n2)
 			%pause here so the player can see the result of his/her move
 			%and to give the impression that the computer is thinking really hard
 			if verbose == 0
