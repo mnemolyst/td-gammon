@@ -1,3 +1,5 @@
+1;
+
 %Tested on Octave version 3.2.4 configured for "i686-pc-linux-gnu"
 
 %Backgammon functions
